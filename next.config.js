@@ -6,7 +6,10 @@ const nextConfig = {
   }
 }
 
+// next.config.js
+const isProd = process.env.NODE_ENV === 'production';
+
 module.exports = {
-  basePath: '', 
-  
+  basePath: isProd ? '/real-estate-app' : '',
+  assetPrefix: isProd ? '/real-estate-app/' : '',
 };
