@@ -62,7 +62,7 @@ Object.defineProperty(exports, "addBasePath", ({
 }));
 const _addpathprefix = __webpack_require__(1751);
 const _normalizetrailingslash = __webpack_require__(2387);
-const basePath =  false || "";
+const basePath = "/your-repo-name" || 0;
 function addBasePath(path, required) {
     return (0, _normalizetrailingslash.normalizePathTrailingSlash)( false ? 0 : (0, _addpathprefix.addPathPrefix)(path, basePath));
 }
@@ -190,7 +190,7 @@ Object.defineProperty(exports, "getDomainLocale", ({
     }
 }));
 const _normalizetrailingslash = __webpack_require__(2387);
-const basePath = (/* unused pure expression or super */ null && ( false || ""));
+const basePath = (/* unused pure expression or super */ null && ("/your-repo-name" || 0));
 function getDomainLocale(path, locale, locales, domainLocales) {
     if (false) {} else {
         return false;
