@@ -10,6 +10,8 @@ const nextConfig = {
 const isProd = process.env.NODE_ENV === 'production';
 
 module.exports = {
+  distDir: 'out',
   basePath: isProd ? '/real-estate-app' : '',
   assetPrefix: isProd ? '/real-estate-app/' : '',
+  
 };
